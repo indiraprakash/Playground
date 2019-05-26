@@ -1,0 +1,8 @@
+---
+
+- name: Provision Vagrant
+  hosts: ansi
+  tasks:
+
+    - name: Say Hello
+      debug: msg="Hello Ansible"
