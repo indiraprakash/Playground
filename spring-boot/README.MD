@@ -3,10 +3,12 @@ Spring Boot makes it effortless to create Spring-powered, production-ready servi
 without a lot of code.
 
 - Spring Boot is not an application server.But it’s the embedded servlet container that provides application server functionality.
-##### Tools
+
+##### Tools
 - Web interface https://start.spring.io
 - Spring Tool Suite
 - Spring Boot CLI
+
 ##### Spring Boot Annotations
 - `@Configuration` Designates a class as a configuration class
 - `@RestController` A convenience annotation that is itself annotated with `@Controller` and `@ResponseBody`
