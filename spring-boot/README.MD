@@ -13,3 +13,4 @@ without a lot of code.
 - `@Configuration` Designates a class as a configuration class
 - `@RestController` A convenience annotation that is itself annotated with `@Controller` and `@ResponseBody`
 - `@RequestMapping` Annotation for mapping web requests onto methods in request-handling classes
+- `@Entity` declares the class as an entity (i.e. a persistent PlainOldJavaObject(POJO) class), `@Id` declares the identifier property of this entity.
