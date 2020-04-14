@@ -14,3 +14,15 @@ without a lot of code.
 - `@RestController` A convenience annotation that is itself annotated with `@Controller` and `@ResponseBody`
 - `@RequestMapping` Annotation for mapping web requests onto methods in request-handling classes
 - `@Entity` declares the class as an entity (i.e. a persistent PlainOldJavaObject(POJO) class), `@Id` declares the identifier property of this entity.
+- `@GeneratedValue` to indicate that this field is the entity’s identity and that its value will be automatically provided.
+-
+```java
+@Entity
+public class Person {
+@Id
+@GeneratedValue(strategy=GenerationType.AUTO)
+private Long id;
+private String name;
+}
+
+```
