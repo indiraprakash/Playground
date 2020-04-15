@@ -23,5 +23,6 @@ public class Person {
 private Long id;
 private String name;
 }
-
 ```
+- `@Service` application component will be registered as a bean
+- `@Autowired` dependency injection
