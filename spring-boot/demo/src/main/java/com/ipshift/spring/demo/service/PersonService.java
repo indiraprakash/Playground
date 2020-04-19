@@ -15,6 +15,8 @@ public class PersonService {
     public List<Person> getAllPersons(){
         return persons;
     }
-
+    public Person getPerson(int id){
+        return new Person(id,"Mueller");
+    }
 
 }
